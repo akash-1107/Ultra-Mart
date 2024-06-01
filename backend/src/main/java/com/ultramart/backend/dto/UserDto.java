@@ -1,6 +1,9 @@
 package com.ultramart.backend.dto;
 
-public class User {
+import lombok.Data;
+
+@Data
+public class UserDto {
         
         private Long id;
         
@@ -14,10 +17,10 @@ public class User {
     
         private byte[] image;    
         
-        public User() {
+        public UserDto() {
         }
     
-        public User(Long id, String email, String password, String name, String role, byte[] image) {
+        public UserDto(Long id, String email, String password, String name, String role, byte[] image) {
             this.id = id;
             this.email = email;
             this.password = password;

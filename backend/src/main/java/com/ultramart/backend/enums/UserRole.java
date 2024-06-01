@@ -4,5 +4,5 @@ public enum UserRole {
     //enum for roles as Admin and user
     ADMIN, 
     
-    USER
+    USER, CUSTOMER
 }
